@@ -9,16 +9,16 @@
 // 2-misol
 
 // Foydalanuvchidan son kiritishni so'rash
-let son = parseFloat(prompt("Sonni kiriting:"));
+// let son = parseFloat(prompt("Sonni kiriting:"));
 
 // Manfiy son tekshiruvi
-if (son < 0) {
-    console.log("Musbat son kiriting");
-} else {
-    // Kvadrat ildizni hisoblash va yaxlitlash
-    let kvadratIldiz = Math.floor(Math.sqrt(son));
-    console.log("Sonning kvadrat ildizi: " + kvadratIldiz);
-}
+// if (son < 0) {
+//     console.log("Musbat son kiriting");
+// } else {
+//     // Kvadrat ildizni hisoblash va yaxlitlash
+//     let kvadratIldiz = Math.floor(Math.sqrt(son));
+//     console.log("Sonning kvadrat ildizi: " + kvadratIldiz);
+// }
 
 
 
@@ -27,8 +27,8 @@ if (son < 0) {
 // 1-misol
 // Musbat yoki manfiy sonni aniqlash
 // Foydalanuvchi kiritgan son musbat yoki manfiy ekanligini ternary operator yordamida aniqlang. Musbat bo'lsa "Musbat son", manfiy bo'lsa "Manfiy son" deb chiqarish
-// let num = +prompt("son");
-// num>0 ? console.log("Musbat"): console.log("Manfiy");
+let num = +prompt("son");
+num > 0 ? console.log("Musbat") : console.log("Manfiy");
 
 // 2-misol
 // Foydalanuvchi o'z yoshini kiritsin. Agar foydalanuvchi 18 yoshdan katta yoki teng bo'lsa, unga "Ruxsat etilgan" degan xabarni ko‘rsating, aks holda "Ruxsat etilmagan" deb chiqaring. Ternary operator yordamida bu shartni bajaring.
@@ -43,12 +43,12 @@ if (son < 0) {
 // for sikl operator
 // 1-misol
 // // Juft va toq sonlarni aniqlash 1 dan 20 gacha bo‘lgan sonlar ichidan faqat juft sonlarni chop eting. Juftlikni aniqlash uchun mantiqiy `&&` operatoridan foydalaning.
-// for (let i = 1; i <= 20; i++) {
-//     if (i % 2 == 0) {
+for (let i = 1; i <= 20; i++) {
+    if (i % 2 == 0) {
 
-//         console.log(i);
-//     }
-// }
+        console.log(i);
+    }
+}
 
 // 2-misol
 //  Foydalanuvchi 10 ta son kiritsin. Sonlar ichidan faqat musbat bo‘lganlarini yig'indisini hisoblang (`for` va mantiqiy `>` operatorlaridan foydalaning).
