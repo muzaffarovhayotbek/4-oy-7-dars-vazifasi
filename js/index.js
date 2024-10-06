@@ -20,7 +20,6 @@
 //     console.log("Sonning kvadrat ildizi: " + kvadratIldiz);
 // }
 
-// misol
 
 
 // Ternary operator
